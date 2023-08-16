@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <div>
-        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div className="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
   <div className="bg-dark p-4">
     <h5 className="text-body-emphasis h4">Art Show </h5>
     <span className="text-body-secondary">Admin Dashboard :</span>
-    <Link class="nav-link active text-info" aria-current="page" to="/Login" >Click Here</Link>
+    <li className='zindex'><Link className="nav-link active text-info" aria-current="page" to="/login" >Click Here</Link></li>
   </div>
 </div>
 <nav className="navbar navbar-dark bg-dark">

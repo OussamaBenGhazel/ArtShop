@@ -8,22 +8,22 @@ import Footer from './Footer';
 export default function Home() {
   return (
     <>
-    <Offline>
+    {/* <Offline>
  Im offline
     </Offline>
-    <Online>
+    <Online> */}
     
     <Navbar/>
-    <div id="carouselExample" class="carousel slide carousel-navbar">
+    <div id="carouselExample" className="carousel slide carousel-navbar">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={carousel1} class="d-block w-100" alt="..."/>
+      <img src={carousel1} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={carousel2} class="d-block w-100" alt="..."/>
+      <img src={carousel2} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src={carousel3} class="d-block w-100" alt="..."/>
+      <img src={carousel3} className="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -65,7 +65,7 @@ Finding the art in neural networks. Our mission is to revolutionise the art worl
 </div>
 <Footer/>
     
-    </Online>
+    {/* </Online> */}
     </>
   )
 }
