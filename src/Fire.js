@@ -3,6 +3,7 @@ import {getAuth} from "firebase/auth"
 const firebaseConfig = {
   apiKey: "AIzaSyDufitJyrOfWIFOEgs6OVc-VFMXDnmXkzQ",
   authDomain: "artshop-10da3.firebaseapp.com",
+  databaseURL: "https://artshop-10da3-default-rtdb.europe-west1.firebasedatabase.app/",
   projectId: "artshop-10da3",
   storageBucket: "artshop-10da3.appspot.com",
   messagingSenderId: "422942132744",

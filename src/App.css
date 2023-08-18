@@ -100,3 +100,9 @@ button{
   width: 70px;
   background-color: rgb(35, 4, 35);
 }
+.inbox-card{
+  background-image: url('https://www.paperplace.com.au/cdn/shop/products/Vintage_kraft_DL.jpg?v=1412236864');
+}
+.myProduct img{
+  height: 300px;
+}

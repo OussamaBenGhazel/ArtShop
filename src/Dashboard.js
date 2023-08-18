@@ -20,6 +20,7 @@ export default function Dashboard(props) {
       <button onClick={()=>setComp(<Files/>)}>Files</button>
       <button onClick={handleLogout}>logout</button>
     </nav>
+    {comp}
 
    </section>
   )
